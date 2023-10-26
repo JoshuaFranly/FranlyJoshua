@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: Poppins, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    z-index: 9;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    display: flex
+}
+.brand-logoo {
+    height: 70px;
+    margin-top: 5px;
+}
+.links1 {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.links1 a {
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #000;
+    opacity: 0.9;
+}
+.right-container {
+    display: block;
+    margin-left: auto;
+}
+.login {
+    color: #000;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.caraousel-container {
+    width: 1600px;
+    height: 685.906px;
+    padding: 20px;
+}
+.logo-season {
+    position: relative;
+    height: 214px;
+    width: 450px;
+    padding-left: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+    line-height: 36px;
+}
+.movie-des {
+    width: 80%;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-top: 1%;
+    margin-left: 150px;
+    opacity: 0.8;
+} 
+
+.dibawah-banner img {
+  top: 0;
+  width: 1600px; 
+  margin-top: 700px;
+  margin-right: 50%;
+  padding: 90px;
+}
+
+.foto-film-container {
+    position: relative;
+    width: 385px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
