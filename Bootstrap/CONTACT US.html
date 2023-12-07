@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <title>Franly Joshua Website// TailwindCSS</title>
+</head>
+<body>
+    <div class="absolute top-2 left-0 min-w-full ">
+        <div class="flex items-center justify-between h-16 mx-4">
+            <nav class="flex items-center">
+                <img src="brand-logoo.png" class="object-fill h-12 w-46" alt="">
+                <ul class="flex-1">
+                    <li class="list-none inline-block px-3"><a href="index.html" class="font-bold">HOME</a></li>
+                    <li class="list-none inline-block px-3"><a href="BIODATA.html" class="font-bold">BIODATA</a></li>
+                    <li class="list-none inline-block px-3"><a href="CONTACT US.html" class="font-bold">CONTACT US</a></li>
+                    <li class="list-none inline-block px-3"><a href="FREE CONTENT.html" class="font-bold">FREE CONTENT</a></li>
+                </ul>
+            </nav>
+            <ul>
+                <li><a href="#" class="font-bold ml-8">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br><br>
+    
+  <div class="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
+
+    <h2 class="text-2xl font-semibold mb-6">CONTACT US</h2>
+
+    <form action="#" method="post">
+
+      <!-- Full Name -->
+      <div class="mb-4">
+        <label for="full_name" class="block text-sm font-medium text-gray-600">Full Name</label>
+        <input type="text" id="full_name" name="full_name" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+
+      <!-- E-mail -->
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-600">E-mail</label>
+        <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+
+      <!-- Username -->
+      <div class="mb-4">
+        <label for="username" class="block text-sm font-medium text-gray-600">Username</label>
+        <input type="text" id="username" name="username" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+
+      <!-- Password -->
+      <div class="mb-4">
+        <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
+        <input type="password" id="password" name="password" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+
+      <!-- Gender -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-600">Gender</label>
+        <div class="mt-1">
+          <label class="inline-flex items-center">
+            <input type="radio" class="form-radio" name="gender" value="male">
+            <span class="ml-2">Male</span>
+          </label>
+          <label class="inline-flex items-center ml-6">
+            <input type="radio" class="form-radio" name="gender" value="female">
+            <span class="ml-2">Female</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Religion -->
+      <div class="mb-4">
+        <label for="religion" class="block text-sm font-medium text-gray-600">Religion</label>
+        <select id="religion" name="religion" class="mt-1 p-2 w-full border rounded-md">
+          <option value="christian">Christian</option>
+          <option value="islam">Islam</option>
+          <option value="hindu">Hindu</option>
+          <option value="buddhist">Buddhist</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Address -->
+      <div class="mb-4">
+        <label for="address" class="block text-sm font-medium text-gray-600">Address</label>
+        <textarea id="address" name="address" rows="3" class="mt-1 p-2 w-full border rounded-md"></textarea>
+      </div>
+
+      <!-- Hobbies -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-600">Hobbies</label>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" class="form-checkbox" name="hobbies[]" value="reading">
+            <span class="ml-2">Reading</span>
+          </label>
+          <label class="inline-flex items-center ml-6">
+            <input type="checkbox" class="form-checkbox" name="hobbies[]" value="traveling">
+            <span class="ml-2">Traveling</span>
+          </label>
+          <!-- Add more checkboxes as needed -->
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+        Save
+      </button>
+
+    </form>
+
+  </div>
+
+</body>
+</body>
